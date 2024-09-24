@@ -1,0 +1,303 @@
+[
+  {
+   "id": "1",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Сheese-pizza",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 21,
+   "category": 3,
+   "rating": 5
+  },
+  {
+   "id": "2",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Hawaiian",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    14
+   ],
+   "price": 23,
+   "category": 5,
+   "rating": 1
+  },
+  {
+   "id": "3",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Pepperoni",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 28,
+   "category": 3,
+   "rating": 1
+  },
+  {
+   "id": "4",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Veggie",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 25,
+   "category": 2,
+   "rating": 4
+  },
+  {
+   "id": "5",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Meat",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10
+   ],
+   "price": 22,
+   "category": 5,
+   "rating": 5
+  },
+  {
+   "id": "6",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Canadian",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 15,
+   "category": 3,
+   "rating": 1
+  },
+  {
+   "id": "7",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Supreme",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 24,
+   "category": 4,
+   "rating": 5
+  },
+  {
+   "id": "8",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Triple Crown",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    10,
+    14
+   ],
+   "price": 22,
+   "category": 4,
+   "rating": 1
+  },
+  {
+   "id": "9",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Chicken",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 18,
+   "category": 1,
+   "rating": 2
+  },
+  {
+   "id": "10",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "BBQ Chicken",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 21,
+   "category": 1,
+   "rating": 2
+  },
+  {
+   "id": "11",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Meat-Pizza",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 23,
+   "category": 1,
+   "rating": 2
+  },
+  {
+   "id": "12",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Super Supreme",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 28,
+   "category": 1,
+   "rating": 2
+  },
+  {
+   "id": "13",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Smokey Maple Bacon",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 25,
+   "category": 1,
+   "rating": 2
+  },
+  {
+   "id": "14",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Grilled Chicken",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    14
+   ],
+   "price": 22,
+   "category": 1,
+   "rating": 2
+  },
+  {
+   "id": "15",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Margherita",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 15,
+   "category": 1,
+   "rating": 2
+  },
+  {
+   "id": "16",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Greek Pizza",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10
+   ],
+   "price": 24,
+   "category": 2,
+   "rating": 2
+  },
+  {
+   "id": "17",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Italian Classic",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 22,
+   "category": 1,
+   "rating": 2
+  },
+  {
+   "id": "18",
+   "imageUrl": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?t=st=1655404510~exp=1655405110~hmac=954444fecc743367c641c1a169b3d7c7eaf34eb4f60c26c0ba2d2333b862bf79&w=1060",
+   "title": "Grilled Chicken Rustico",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    6,
+    10,
+    14
+   ],
+   "price": 18,
+   "category": 1,
+   "rating": 2
+  }
+ ]

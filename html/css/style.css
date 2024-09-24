@@ -1,0 +1,396 @@
+@charset "utf-8";
+
+/* ================================================================================== 
+                  Fonts
+  ===================================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+/* ================================================================================== 
+                      Reset Css
+  ===================================================================================== */
+body,
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  /* background-color: #f5f5f5; */
+}
+/* ================================================================================== 
+                      Reset Css
+  ===================================================================================== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a,
+a:active,
+a:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* --------------------------------
+ Additional Styles
+-------------------------------- */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: auto !important;
+}
+a:hover {
+  text-decoration: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+button {
+  outline: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+a:hover {
+  color: #fff;
+}
+button {
+  outline: none;
+}
+input {
+  outline: none;
+}
+textarea {
+  outline: none;
+}
+/* ========================= */
+/**=========MouseWait Header CSS Start ==========**/
+
+/**=========MW-Deshborad2 CSS start ==========**/
+.mousewait-bg {
+  background-color: #eadcf5;
+  height: 200vh;
+}
+.des-main-sec {
+  display: grid;
+  grid-template-columns: 180px 4fr 1fr;
+}
+/*======== leftbar css start ======*/
+.leftbar {
+  margin-top: 10rem;
+}
+.leftbar .nav .nav-item .nav-link {
+  color: #47444a;
+  font-weight: 500;
+}
+.leftbar .nav .nav-item .nav-link i {
+  color: #47444a;
+  margin-right: 1rem;
+}
+/*======== leftbar css end ======*/
+/*======== mid-sec css start ======*/
+.mid-sec {
+  background-color: #e5e5e5;
+  height: 200vh;
+}
+.mid-sec .banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.mid-sec .text-head {
+  margin-bottom: 1.5rem;
+}
+.mid-sec .text-head ul li {
+  display: inline;
+
+  margin-right: 0.5em;
+}
+.mid-sec .text-head ul li a {
+  color: #aeaeae;
+  text-decoration: none;
+}
+.mid-card-sec {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.mid-card-sec .card-m {
+  background-color: #fff;
+  padding: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+.mid-card-sec .card-m .card-img-b img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.mid-card-sec .card-m .card-body h6 {
+  color: #313237;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.chat-icon {
+  margin-top: 0.5rem;
+}
+.chat-icon span {
+  margin-right: 1rem;
+  color: #000;
+  font-size: 0.9rem;
+}
+.chat-icon span i {
+  font-size: 0.9em;
+}
+.mid-card-sec .card-m .card-s-img .small-c img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.mid-card-sec .card-m .card-s-img .small-tt {
+  line-height: 15px;
+  margin-left: 0.2rem;
+}
+.mid-card-sec .card-m .card-s-img .small-tt h6 {
+  color: #313237;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.mid-card-sec .card-m .card-s-img .small-tt span {
+  color: #718797;
+  font-size: 0.8rem;
+}
+.mid-card-sec .card-m .card-s-img .small-tt p {
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.mid-card-sec .card-m .icon-img i {
+  color: #727477;
+  font-size: 1rem;
+}
+.small-tt .mid-x {
+  font-size: 0.6rem !important;
+  margin-right: 0.3rem;
+}
+.small-tt .mid-xx {
+  font-size: 0.6rem !important;
+  margin-top: 0.3rem;
+}
+.small-tt .mid-x1 {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+.mid-card-sec .card-body .card-x2 .small-box {
+  margin-top: 1rem !important;
+}
+.mid-card-sec .card-m2 {
+  height: 150%;
+}
+.add-text-sec {
+  background-color: #fff;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin-top: 15rem;
+}
+.add-text-sec .add-icon {
+  background-color: #9bb8ef;
+  color: #f24647;
+  font-size: 1rem;
+  padding: 0.1rem 0.8rem;
+  border-radius: 30%;
+}
+/*======== mid-sec css end ======*/
+.rightbar .pro-main {
+  margin-top: 2rem;
+}
+.rightbar .pro-main .profile-sec img {
+  width: 35px;
+  height: 35px;
+  display: block;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.rightbar .pro-main .profile-sec .small-tt {
+  line-height: 15px;
+  margin-left: 0.5rem;
+}
+.rightbar .pro-main .profile-sec .small-tt h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+}
+.rightbar .pro-main .profile-sec .small-tt span {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #c5caf6;
+}
+
+.rightbar .pro-main .profile-sec .pro-right span {
+  background: #fac70f;
+  color: #13141c;
+  font-size: 0.8em;
+  font-weight: 700;
+  padding: 0.2rem 0.8rem;
+}
+.Search-bar {
+  margin-top: 1rem;
+}
+.Search-bar .form-control:focus {
+  box-shadow: none;
+}
+.rightbar .Search-bar .input-group .input-group-prepend i {
+  color: #727477;
+}
+.Search-bar .form-control::placeholder {
+  font-weight: 400;
+  color: #000;
+}

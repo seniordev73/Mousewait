@@ -1,0 +1,189 @@
+/*===================================
+       Media Query CSS
+===================================== */
+/*
+|-------------------------------------------------------------------|
+| Extra large devices (large desktops, 1200px)                      | 
+|-------------------------------------------------------------------|
+*/
+@media screen and (min-width: 1200px) and (max-width: 1920px) {
+  /*** mid-sec mobile-view start css ***/
+  .mid-sec .top-text-m {
+    display: none;
+  }
+  /*** mid-sec mobile-view end css ***/
+}
+
+/*|-------------------------------------------------------------------|
+| Extra large devices (large desktops, 1200px)                      | 
+|-------------------------------------------------------------------|
+*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /*** mid-sec mobile-view start css ***/
+  .mid-sec .top-text-m {
+    display: none;
+  }
+  .des-main-sec {
+    display: grid;
+    grid-template-columns: 155px 3fr 1fr;
+  }
+
+  /*** mid-sec mobile-view end css ***/
+}
+/*
+|-------------------------------------------------------------------|
+| Large devices (tablets, 992px)                                    | 
+|-------------------------------------------------------------------|
+*/
+
+
+/* @media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .des-main-sec {
+    display: grid;
+    grid-template-columns: 152px 2fr 1fr;
+  }
+  .mid-sec .top-text-m {
+    display: none;
+  }
+  .mid-card-sec {
+    width: 95%;
+  }
+} */
+
+/*
+|-------------------------------------------------------------------|
+| Medium devices (Mobiles, 768px)                                   | 
+|-------------------------------------------------------------------|
+*/
+@media screen and (min-width: 576px) and (max-width: 991.98px) {
+   /* mousewait-desborad2 start css */
+  .des-main-sec {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .leftbar {
+    display: none;
+  }
+  .mid-sec {
+    padding: 0rem 0.3rem;
+    margin: 0rem -30px;
+  }
+
+  .mid-sec .text-head {
+    display: none;
+  }
+
+  /*** mid-sec mobile-view start css ***/
+  .mid-sec .top-text-m .top-mw h6 {
+    font-size: 1rem;
+    color: #313237;
+    font-weight: 600;
+  }
+  .mid-sec .top-text-m .top-mw .top-sp p span {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    color: #000;
+    font-weight: 500;
+  }
+  .mid-sec .top-text-m .text-head-m {
+    margin: 0.5rem 0rem;
+  }
+  .mid-sec .top-text-m .text-head-m ul li {
+    display: inline;
+    margin-left: 0.5em;
+  }
+  .mid-sec .top-text-m .text-head-m ul li a {
+    color: #313237;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .mid-card-sec {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0rem 0.7rem;
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+  }
+  .mid-card-sec .card-m .card-img-b img {
+    height: auto;
+  }
+  /*** mid-sec mobile-view start css ***/
+
+  /*** rightbar start css ***/
+  .rightbar {
+    display: none;
+  }
+
+  /*** rightbar end css ***/
+
+
+
+}
+
+/*
+|-------------------------------------------------------------------|
+| Small devices (landscape phones, 476px)                           | 
+|-------------------------------------------------------------------|
+*/
+@media screen and (min-width: 0px) and (max-width: 575.98px) {
+  /* mousewait-desborad2 start css */
+  .des-main-sec {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .leftbar {
+    display: none;
+  }
+  .mid-sec {
+    padding: 0rem 0.3rem;
+    margin: 0rem -30px;
+  }
+
+  .mid-sec .text-head {
+    display: none;
+  }
+
+  /*** mid-sec mobile-view start css ***/
+  .mid-sec .top-text-m .top-mw h6 {
+    font-size: 1rem;
+    color: #313237;
+    font-weight: 600;
+  }
+  .mid-sec .top-text-m .top-mw .top-sp p span {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    color: #000;
+    font-weight: 500;
+  }
+  .mid-sec .top-text-m .text-head-m {
+    margin: 0.5rem 0rem;
+  }
+  .mid-sec .top-text-m .text-head-m ul li {
+    display: inline;
+    margin-left: 0.5em;
+  }
+  .mid-sec .top-text-m .text-head-m ul li a {
+    color: #313237;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .mid-card-sec {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0rem 0.7rem;
+  }
+  .mid-card-sec .card-m .card-img-b img {
+    height: auto;
+  }
+  /*** mid-sec mobile-view start css ***/
+
+  /*** rightbar start css ***/
+  .rightbar {
+    display: none;
+  }
+
+  /*** rightbar end css ***/
+}

@@ -1,0 +1,47 @@
+@import '../variables';
+/* .Mouse-Wait-sec .navbar .MW-button .MW-btn:hover{
+  transition: box-shadow 360ms;
+  box-shadow: 5px 5px 0 0 #9bb8ef;
+  border: 2px solid #9bb8ef;
+  padding: .4rem 1rem;
+  color: #000;
+} */
+.Mouse-Wait-sec {
+	padding: 0.5rem 0rem;
+	border-bottom: 1px solid #dddddd59;
+	.navbar {
+		.navbar-brand {
+			img {
+				width: 35px;
+				height: auto;
+				display: block;
+				object-fit: contain;
+			}
+		}
+		.MW-button {
+			.MW-btn {
+				background: #a0b7e9;
+				line-height: 1.5rem;
+				margin-right: 0.4rem;
+				border-radius: 0.6rem;
+				color: #fff;
+				border: 1px solid #a0b7e9;
+				padding: 0.4rem 1.5rem;
+			}
+		}
+		.navbar-nav {
+			.nav-item {
+				.nav-link {
+					font-size: 18px;
+					font-weight: 500;
+					color: #222;
+				}
+			}
+		}
+	}
+	.navbar-toggler {
+		&:focus {
+			box-shadow: none;
+		}
+	}
+}

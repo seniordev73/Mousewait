@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Moblie metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- site metas -->
+    <meta name="keywords" content="MouseWait Disneyland Lounge" />
+    <meta name="descripation" content="ouseWait Disneyland Lounge" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Font Awesome --->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      />
+      <!-- Custom stylesheet -->
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <!-- Responsive css -->
+      <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+      <title>MouseWait</title>
+    </head>
+    <body>
+      <!--===== Top-Header-bar Start =======-->
+      <section class="Mouse-Wait-sec">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/MouseWait.png" class="img-fluid" alt="MouseWait-logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="bar"><i class="fa-solid fa-bars"></i></div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">MouseWait</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">MouseWait</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    MouseWait
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="MW-button d-flex">
+                <button type="button" class="MW-btn">Sign In</button>
+                <button type="button" class="MW-btn">Login</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!--===== Top-Header-bar End =======-->
+      <div class="des-bg">
+        <!--===== MW-Deshborad-sec Start =======-->
+        <section class="MW-Deshborad-sec">
+          <div class="container">
+            <div class="row">
+              <div class="">
+                <div class="tab-mw">
+                  <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <!-----MW-upload-img sec Start---->
+                    <div class="img-up">
+                      <div class="MW-upload-img">
+                        <div class="avatar-upload">
+                          <div class="avatar-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload"><i class="fas fa-camera"></i></label>
+                          </div>
+                          <div class="avatar-preview">
+                            <div id="imagePreview">
+                              <img src="images/back-img.jpg" class="img-fluid" alt="MouseWait-logo">
+                            </div>
+                          </div>
+                        </div>
+                        <p>Change Photo</p>
+                      </div>
+                    </div>
+                    <!-----MW-upload-img sec End---->
+                    <!-----MW-Left-Menu sec Start---->
+                    <button class="nav-link justify-content-between d-flex" id="v-pills-User-tab" data-bs-toggle="pill" data-bs-target="#v-pills-User" type="button" role="tab" aria-controls="v-pills-User" aria-selected="true">Username <span>shahid  <i class="fas fa-angle-right"></i></span></button>
+                    <button class="nav-link justify-content-between d-flex" id="v-pills-Email-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Email" type="button" role="tab" aria-controls="v-pills-Email" aria-selected="false">Email  <span>nadeem.ind@gmail.com  <i class="fas fa-angle-right"></i></span></button>
+                    <button class="nav-link  justify-content-between d-flex" id="v-pills-Detail-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Detail" type="button" role="tab" aria-controls="v-pills-Detail" aria-selected="false">Porfile Detail <span><i class="fas fa-angle-right"></i></span></button>
+                    <button class="nav-link justify-content-between d-flex" id="v-pills-MyMW-tab" data-bs-toggle="pill" data-bs-target="#v-pills-MyMW" type="button" role="tab" aria-controls="v-pills-MyMW" aria-selected="false">MyMW <span><i class="fas fa-angle-right"></i></span></button>
+                    <button class="nav-link justify-content-between d-flex" id="v-pills-Store-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Store" type="button" role="tab" aria-controls="v-pills-Store" aria-selected="false">MouseWait Store <span><i class="fas fa-angle-right"></i></span></button>
+                    <button class="nav-link justify-content-between d-flex" id="v-pills-MWRadio-tab" data-bs-toggle="pill" data-bs-target="#v-pills-MWRadio" type="button" role="tab" aria-controls="v-pills-MWRadio" aria-selected="false">MW Radio <span><i class="fas fa-angle-right"></i></span></button>
+                    <!-----MW-Left-Menu sec End---->
+                  </div>
+                  <!-----MW-Left-Menu-text sec Start---->
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show" id="v-pills-User" role="tabpanel" aria-labelledby="v-pills-User-tab" tabindex="0"><p>Item 1
+                    This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p></div>
+                    <div class="tab-pane fade" id="v-pills-Email" role="tabpanel" aria-labelledby="v-pills-Email-tab" tabindex="0">Item 2
+                    This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</div>
+                    <div class="tab-pane fade" id="v-pills-Detail" role="tabpanel" aria-labelledby="v-pills-Detail-tab" tabindex="0">Item 3
+                    This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</div>
+                    <div class="tab-pane fade" id="v-pills-MyMW" role="tabpanel" aria-labelledby="v-pills-MyMW-tab" tabindex="0">Item 5
+                    This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting4</div>
+                    <div class="tab-pane fade" id="v-pills-Store" role="tabpanel" aria-labelledby="v-pills-Store-tab" tabindex="0">Item 6
+                    This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting4</div>
+                    <div class="tab-pane fade" id="v-pills-MWRadio" role="tabpanel" aria-labelledby="v-pills-MWRadio-tab" tabindex="0">Item 5
+                    This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting4</div>
+                  </div>
+                  <!-----MW-Left-Menu-text sec End---->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--===== MW-Deshborad-sec End =======-->
+      </div>
+      <!--===== MMW-footer Start =======-->
+      <section class="MW-footer">
+        <div class="container">
+          <div class="row">
+            <div class="MW-Social">
+              <div class="social-icons text-center">
+                <ul class="p-0 m-0">
+                  <li><a href="https://www.facebook.com/MouseWait/"><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href="https://mousewait.com/"><i class="fas fa-home"></i></a></li>
+                  <li><a href="https://mousewait.com/"><i class="fa-solid fa-envelope"></i></a></li>
+                  <li><a href="https://www.instagram.com/mousewait/"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="https://twitter.com/mousewait"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="https://www.pinterest.com/mousewait/"><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+                 </div>
+             <div class="footer-t text-center">
+                  <p>MouseWait for Disneyland <br>© 2020 audio rush LLC. All rights reserved.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--===== MMW-footer End =======-->
+      <!-- Optional JavaScript; choose one of the two! -->
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      -->
+      <!-----MW-upload-img sec javascript Start---->
+      <script type="text/javascript">
+      function readURL(input) {
+      if (input.files && input.files[0]) {
+      var reader = new FileReader();
+      reader.onload = function(e) {
+      $('#imagePreview').css('background-image', 'url('+e.target.result +')');
+      $('#imagePreview').hide();
+      $('#imagePreview').fadeIn(650);
+      }
+      reader.readAsDataURL(input.files[0]);
+      }
+      }
+      $("#imageUpload").change(function() {
+      readURL(this);
+      });
+      </script>
+      <!-----MW-upload-img sec javascript End---->
+    </body>
+  </html>
